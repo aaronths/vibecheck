@@ -61,7 +61,14 @@ export const styles = StyleSheet.create({
 
   // ===== Buttons =====
   button: {
-    backgroundColor: "#fefefe",
+    backgroundColor: "#044065",
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 25,
+    marginTop: 10,
+  },
+  disabledButton: {
+    backgroundColor: "#6c757d",
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 25,
